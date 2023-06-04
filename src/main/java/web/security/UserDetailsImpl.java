@@ -38,7 +38,6 @@ public class UserDetailsImpl implements UserDetails {
         return this.user.getUsername();
     }
 
-    //Нужно для получения данных аутентифицированного пользователя
     public User getUser() {
         return this.user;
     }
